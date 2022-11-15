@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+$fnt-wght-l: 100;
+$fnt-wght-t: 700;
+$fnt-size-t: 30px;
+$fnt-size-data: 18px;
+$fnt-size-info: 10px;
+
+$primary-color: #9e4e10;
+$title-color-1: #fff;
+$data-color: #777;
+$subtitle-color: #333;
+$color-info: #ccc;
+
+body {
+    background: url("./images/mars.jpg") no-repeat fixed;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+}

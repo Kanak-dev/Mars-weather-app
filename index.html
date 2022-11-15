@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a009a71f70.js" crossorigin="anonymous" defer></script>
+    <title>Mars weather app</title>
+    <link rel="stylesheet" href="/scss/main.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="main_title">
+            <p>LATEST WEATHER AT ELYSIUM PLANTITIA</p>
+        </div>
+        <div class="day">
+            <p class="sol_title">Sol <span>377</span></p>
+            <p class="data" id="current_date">Current date::>>...</p>
+        </div>
+        <div class="temp">
+            <p class="title">Temperature</p>
+            <p id="high_temp" class="data">High: <span>-20<sup>o</sup>C
+            </span></p>
+            <p id="low_temp" class="data">Low: <span>-120<sup>o</sup>C
+            </span></p>
+        </div>
+        <div class="wind">
+            <div id="compass">
+                <div id="hand"></div>
+            </div>
+            <div>
+                <p class="title">Wind</p>
+                <p id="wind_speed" class="data">75kph</p>
+            </div>
+        </div>
+        <div class="info">
+            <p>InSight is taking daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, a flat, smooth plain near Mars' equator.</p><br>
+            <p>This is only a part of inSight's mission. <a href="#">Click here</a> to find out more.</p>
+        </div>
+        <div class="cf_toggler">
+            <sup>o</sup>C 
+                <label class="toggle">
+                    <input type="checkbox">
+                        <span class="slider"></span>
+                </label> 
+            <sup>o</sup>F 
+        </div>
+    </main>
+    <section  class="previous_weather">
+        <button class="show_previous_weather">
+            <div class="slide_up_arrow">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </button>
+        <p class="main_title foot_main_title">PREVIOUS 7 DAYS</p>
+        <div class="previous_days">
+            <div class="previous_day">
+                <h3 class="sol_title_2">Sol 371</h3>
+                <p>September 31</p>
+                <p>High: -20<sup>o</sup>C</p>
+                <p>Low: -120<sup>o</sup>C</p>
+                <button class="more_info_btn">More info</button>
+            </div>
+            <div class="previous_day">
+                <h3 class="sol_title_2">Sol 371</h3>
+                <p>September 31</p>
+                <p>High: -20<sup>o</sup>C</p>
+                <p>Low: -120<sup>o</sup>C</p>
+                <button class="more_info_btn">More info</button>
+            </div>
+            <div class="previous_day">
+                <h3 class="sol_title_2">Sol 371</h3>
+                <p>September 31</p>
+                <p>High: -20<sup>o</sup>C</p>
+                <p>Low: -120<sup>o</sup>C</p>
+                <button class="more_info_btn">More info</button>
+            </div>
+            <div class="previous_day">
+                <h3 class="sol_title_2">Sol 371</h3>
+                <p>September 31</p>
+                <p>High: -20<sup>o</sup>C</p>
+                <p>Low: -120<sup>o</sup>C</p>
+                <button class="more_info_btn">More info</button>
+            </div>
+            <div class="previous_day">
+                <h3 class="sol_title_2">Sol 371</h3>
+                <p>September 31</p>
+                <p>High: -20<sup>o</sup>C</p>
+                <p>Low: -120<sup>o</sup>C</p>
+                <button class="more_info_btn">More info</button>
+            </div>
+            <div class="previous_day">
+                <h3 class="sol_title_2">Sol 371</h3>
+                <p>September 31</p>
+                <p>High: -20<sup>o</sup>C</p>
+                <p>Low: -120<sup>o</sup>C</p>
+                <button class="more_info_btn">More info</button>
+            </div>
+            <div class="previous_day">
+                <h3 class="sol_title_2">Sol 371</h3>
+                <p>September 31</p>
+                <p>High: -20<sup>o</sup>C</p>
+                <p>Low: -120<sup>o</sup>C</p>
+                <button class="more_info_btn">More info</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

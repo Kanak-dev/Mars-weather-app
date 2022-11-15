@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("./images/mars.jpg") no-repeat fixed;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
